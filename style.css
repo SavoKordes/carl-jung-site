@@ -281,3 +281,24 @@ header {
   display: flex;
   flex: 1;
 }
+
+.line-divider {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #a0522d;
+  margin: 1rem 0;
+}
+
+.line-divider::before,
+.line-divider::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #a0522d;
+  margin: 0 1rem;
+}
+
+.line-divider span {
+  font-size: 1.2rem;
+  letter-spacing: 0.5rem;
+}
