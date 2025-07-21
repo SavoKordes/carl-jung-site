@@ -276,7 +276,7 @@ header {
 
 
 @media (max-width: 768px) {
-  .sidebar {
+  .sidebar, .quote-box, .header-symbol {
     display: none;
   }
 
@@ -290,7 +290,7 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between; /* spread items out */
+    justify-content: center; /* spread items out */
   align-items: center; /* vertically center items within navbar */
     background: #eee;
     padding: 10px;
